@@ -61,6 +61,13 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+# SovereignNotes local user data (never commit)
+notes.db
+notes.db-journal
+notes_encrypted.db
+*.db
+*.db-journal
+
 # Flask stuff:
 instance/
 .webassets-cache
